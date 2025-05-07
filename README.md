@@ -1,39 +1,79 @@
-# Landing Page de Naruto Uzumaki
+README - Naruto Uzumaki Fan Page
+Descrição
+Este é um site de fãs dedicado a Naruto Uzumaki, o Sétimo Hokage da Vila da Folha. O site apresenta informações sobre o personagem, suas técnicas especiais (jutsus), uma seção de contato e um design responsivo.
 
-![Preview](img/naruto-banner.jpg)
+Recursos
+Página inicial com imagem do Hokage
 
-Landing Page responsiva sobre Naruto Uzumaki, o Sétimo Hokage da Vila da Folha. O projeto inclui uma página principal com informações sobre Naruto, suas técnicas, seu time, e uma seção de contato que redireciona para um formulário de solicitação de missão.
+Seção "Sobre" com história do personagem e barras de progresso de habilidades
 
-## Tecnologias Utilizadas
+Seção de técnicas especiais (Jutsus) com cards interativos
 
-- **HTML5** - Estrutura da página
-- **CSS3** - Estilização
-- **Bootstrap 4** - Framework CSS para layout responsivo
-- **JavaScript** - Interatividade
-- **jQuery** - Biblioteca JavaScript para simplificar manipulação do DOM e AJAX
+Formulário de contato funcional
 
-## Funcionalidades
+Design responsivo usando Bootstrap 5
 
-1. **Página Principal**
-   - Seção hero com imagem e chamada principal
-   - Seção sobre Naruto com progress bars
-   - Cards de técnicas com modal de detalhes que redireciona para a segunda página
-   - Formulário de contato que redireciona para a segunda página
+Efeitos de hover e animações CSS
 
-2. **Página de Formulário**
-   - Formulário completo para solicitação de missão
-   - Validação de campos
-   - Modal de sucesso após envio
+Navbar fixo no topo
 
-3. **Interações**
-   - Smooth scrolling para navegação
-   - Navbar que muda ao scroll
-   - Cards com hover effects
-   - Modais para detalhes das técnicas
-   - Redirecionamento entre páginas
+Tecnologias Utilizadas
+HTML5
 
-## Como Executar
+CSS3
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/naruto-landing-page.git# Naruto
+Bootstrap 5.3.6
+
+jQuery 3.7.1
+
+Font Awesome (para ícones)
+
+Estrutura de Arquivos
+naruto-fanpage/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── hokage.webp
+│   ├── narutinho.webp
+│   ├── rasengan.jpg
+│   ├── modosabio.jpg
+│   └── kurama.jpg
+└── videos/
+    └── narutinhovideo.mp4
+Como Executar
+Clone o repositório:
+
+bash
+git clone https://github.com/seu-usuario/naruto-fanpage.git
+Abra o arquivo index.html em qualquer navegador moderno.
+
+Personalização
+Você pode personalizar:
+
+Cores no arquivo CSS (procure por --orange-color)
+
+Imagens na pasta images/
+
+Conteúdo textual diretamente no HTML
+
+Efeitos de animação no CSS
+
+Melhorias Futuras
+Adicionar mais seções (aliados, vilões, linha do tempo)
+
+Implementar um sistema de comentários
+
+Adicionar mais animações JavaScript
+
+Criar versão em inglês
+
+Créditos
+Design inspirado no universo de Naruto (Masashi Kishimoto)
+
+Imagens usadas apenas para fins educacionais
+
+Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para detalhes.
