@@ -17,8 +17,7 @@ Landing Page responsiva sobre Naruto Uzumaki, o Sétimo Hokage da Vila da Folha.
 1. **Página Principal**
    - Seção hero com imagem e chamada principal
    - Seção sobre Naruto com progress bars
-   - Cards de técnicas com modal de detalhes
-   - Galeria do Time 7
+   - Cards de técnicas com modal de detalhes que redireciona para a segunda página
    - Formulário de contato que redireciona para a segunda página
 
 2. **Página de Formulário**
